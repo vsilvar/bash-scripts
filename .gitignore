@@ -1,8 +1,20 @@
 # Ignore prod .env files
 *.env
+plex-dlp-mirror.sources/*.env
+# Ignore lock file
+*.lock
 # Ignore .bak files
 *.bak
 # Ignore .log file
 *.log
-skeleton.bash
-number_bad_exists.bash
+# Ignore .txt files
+*.txt
+# Ignore .db files
+*.db
+# Ignore tools
+tools/*
+# This is a symlink
+sonarr-update-tba-4k.bash
+# No need for any of the sub-files
+youtube_to_podcast-*.bash
+plex-dlp-mirror.sources/
